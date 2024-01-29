@@ -1,0 +1,250 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: linear-gradient(to right, rgba(253, 153, 3, 0.952),rgba(207, 86, 38, 0.911));
+    height: 1500px;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.logo{
+   background-image: url(khaugalli-high-resolution-logo-black-transparent.png);
+   width: 130px; 
+   height: 60px;      
+   background-size: contain; 
+   background-repeat: no-repeat;
+   position: relative;
+   top: 20px;
+   
+}
+
+/*Header*/
+.nav{
+    position: sticky;
+    top: 1px;
+}
+.container{
+    display: flex;
+    background-color:  rgba(151, 113, 9, 0.548);
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    margin: 1px;
+    position: sticky;
+    top: 10px;
+
+    
+   
+}
+.container a{
+    text-decoration: none;
+    color: rgb(251, 250, 250);
+    transition: 0.3 ease; 
+    padding: 10px 20px;
+    
+}
+.container a:hover{
+    background-color: rgba(158, 113, 61, 0.842);
+    transition: background-color 0.9s ease; 
+    border-radius: 25px;
+    color:rgb(255, 255, 255) ;
+}
+.ancor{
+    justify-content: space-between;
+}
+.ancor li{
+    float:left;
+    list-style: none;
+    margin: 20px;   
+}
+/*Header^^^^^^^ */
+@media screen and (max-width: 600px) {
+    .container {
+      display: block;
+      padding: 3px 3px;
+      display: flex;
+    }
+    .container a{
+
+padding: 3px 3px;
+    }
+  
+    .ancor{
+        display: block;
+    }
+  }
+/*Header^^^^^^^ */  
+
+.title h1{
+
+    color: rgba(255, 255, 255, 0.815);      
+}
+.title p{
+   
+    color: rgba(255, 255, 255, 0.815);
+}
+.title{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    border: 2px solid linear-gradient(to right, rgba(235, 141, 0, 0.952),rgba(239, 239, 5, 0.911));
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 30px;
+    box-shadow:0px 1px 3px  rgba(0, 0, 0, 0.8); 
+    padding: 4px 6px;
+    
+
+}
+.title h1:hover{
+    transition: 0.3s ease;
+    color: aliceblue;
+    
+   
+}
+.title p:hover{
+    transition: 0.3s ease;
+    color: aliceblue;
+   
+}
+/*About */
+.about{
+    position: relative;
+    top: 170px;
+    width: 40%;
+    right: 25%;
+    border: 2px solid linear-gradient(to right, rgba(235, 141, 0, 0.952),rgba(239, 239, 5, 0.911));;
+    box-shadow:0px 1px 3px  rgba(0, 0, 0, 0.8);
+    padding: 16px 18px; 
+    color: rgba(255, 255, 255, 0.815);
+    font-weight:lighter;
+   
+}
+.delights:hover,
+.event:hover,
+.about:hover{
+    transition: 0.3s ease;
+    box-shadow:0px 1px 3px  rgb(255, 255, 255); 
+}
+
+/*delights */
+.delights{
+    position: relative;
+    top: 120px;
+    width: 40%;
+    left: 25%;
+    border: 2px solid linear-gradient(to right, rgba(235, 141, 0, 0.952),rgba(239, 239, 5, 0.911));;
+    box-shadow:0px 1px 3px  rgba(0, 0, 0, 0.8);
+    padding: 16px 18px; 
+    color: rgba(255, 255, 255, 0.815);
+    font-weight:lighter;
+
+}
+
+/*event */
+.event{
+    position: relative;
+    top: 80px;
+    width: 40%;
+    right: 25%;
+    border: 2px solid linear-gradient(to right, rgba(235, 141, 0, 0.952),rgba(239, 239, 5, 0.911));;
+    box-shadow:0px 1px 3px  rgba(0, 0, 0, 0.8);
+    padding: 16px 18px; 
+    color: rgba(255, 255, 255, 0.815);
+    font-weight: lighter;
+}
+.more{
+    background-color: rgba(53, 53, 207, 0.737);
+    padding: 2px 3px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: lighter;
+    position: relative;
+    top: 3px;
+    
+}
+
+/*Food section*/
+.foodhead{
+    text-align: center;
+    position: relative;
+    top: 160px;
+    color: rgba(240, 248, 255, 0.79);
+    
+
+}
+
+.food{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 190px;
+  
+}
+.vada,
+.dosa,
+.salad{
+    text-align: center;
+    color: aliceblue;
+    font-size: 18px;
+       
+}
+.vada img,
+.dosa img,
+.salad img {
+    width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+    box-shadow:0px 2px 5px  rgba(0, 0, 0, 0.8);
+}
+
+.noodle img:hover,
+.vada img:hover,
+.dosa img:hover,
+.salad img:hover
+ {
+    
+    transition: 0.5s ease-in-out;
+    box-shadow:3px 19px 16px  rgb(0, 0, 0); 
+    cursor: pointer;
+}
+
+/* Noodle img */
+.noodle{
+    text-align: center;
+    color: aliceblue;
+    font-size: 18px;
+    align-items: center;
+    position: relative;
+    top: 220px;
+}
+.noodle img{
+    width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+    box-shadow:0px 2px 5px  rgba(0, 0, 0, 0.8);
+
+}
+
+@media screen and (max-width: 768px) {
+    .food {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        text-align: center;
+        top: 0; /* Remove the top positioning */
+        width: 390px;
+        top: 90px;
+    }
+}
+
+.f1{
+    position: relative;
+    top: 500px;
+    color: rgba(240, 248, 255, 0.804);
+    padding: 4px;
+    text-align: center;
+}
+
